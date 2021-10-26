@@ -14,7 +14,6 @@
 <body>
 <!--Title - full name + hiding text (Resume)----------------------------->
 
-
 <nav class="navbar navbar-dark bg-primary">
   <blockquote class="blockquote col text-center text-white">
     <p class="h3">Eliachar Feig</p>
@@ -37,13 +36,37 @@
       <ul class="navbar-nav me-auto mb-2 mb-lg-0"> <!--Who is submitting at the navigation bar-->
         <li class="nav-item">
           <a class="nav-link" role="button" data-bs-toggle="modal" data-bs-target="#myModal">Who is submitting</a>
+
+          <!--Who is submitting modal-->
+          <div class="modal fade" tabindex="-1" role="dialog" id="myModal">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h5 class="modal-title">Modal title</h5>
+                </div>
+                <!-- Modal Body -->
+                <div class="modal-body">
+                  <p>Name: Eliachar Feig
+                    <br>Tel: 058-7272372
+                    <br>Email1: eliacharfe@edu.hac.ac.il
+                    <br>Email2: efeig15@gmail.com
+                    <br>ID: 302278338
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </li>
 
         <li class="nav-item"> <!--Button link to Linkedin at the navigation bar-->
           <a class="nav-link"  href="https://www.linkedin.com/in/eliachar-feig-55983165/"
              target="_blank" style="font-size: large">Linkedin</a>
         </li>
-        <li class="nav-item"> <!--Button link to Linkedin at the navigation bar-->
+        <li class="nav-item"> <!--Button link to GiitHub at the navigation bar-->
           <a class="nav-link" href="https://github.com/eliacharfe"
              target="_blank" style="font-size: large">GitHub</a>
         </li>
@@ -54,15 +77,17 @@
 
 <hr> <!-------------------------------------------------------->
 
-<!--A picture of mine-->
-<img src="https://scontent.fsdv3-1.fna.fbcdn.net/v/t1.6435-9/p235x350/246464785_4002234559876792_6212020902328016550_n.jpg?_nc_cat=105&_nc_rgb565=1&ccb=1-5&_nc_sid=e33968&_nc_ohc=dUnGx1HPGS8AX_t-Hbn&_nc_ht=scontent.fsdv3-1.fna&oh=634fefcc6e06c2e8994a68f5f50d1d90&oe=61969116"
-     width="114" height="130" style="vertical-align:middle;margin:10px; " alt="My Picture">
-
 <!--Main content of the CV. Divided to 1 row and 3 columns at xl size window, 2 columns at medium size window
     and 1 column at xs window size--------------------------------------------------------------------------->
 <div class="container-fluid">
   <div class="row">
-    <div class="col-lg-4 ">
+
+      <div class="col-lg-4 ">
+
+      <!--A picture of mine-->
+      <img src="https://scontent.fsdv3-1.fna.fbcdn.net/v/t1.6435-9/p235x350/246464785_4002234559876792_6212020902328016550_n.jpg?_nc_cat=105&_nc_rgb565=1&ccb=1-5&_nc_sid=e33968&_nc_ohc=dUnGx1HPGS8AX_t-Hbn&_nc_ht=scontent.fsdv3-1.fna&oh=634fefcc6e06c2e8994a68f5f50d1d90&oe=61969116"
+           width="114" height="130" style="vertical-align:middle;margin:10px; " alt="My Picture">
+
       <h2 ><strong>1. About Me </strong> </h2>
       <ul>
         <li>Eliachar Meir Moshe Feig</li> <!--none numerated list-->
@@ -79,7 +104,8 @@
       </p>
     </div>
        <!------------------------------->
-    <div class="col-lg-4 col-md-6"> <!--A table (grid) of my skills-->
+      <div class="col-lg-4 col-md-6"> <!--A table (grid) of my skills-->
+
           <h2> <strong>2. Skills </strong></h2>
           <div class="table-responsive-md table table-bordered">
             <table class="table" id="skillsTable">
@@ -139,33 +165,11 @@
           <li>Music</li>
         </ol>
       </div>
-    </div>
+
+  </div>
 </div>
 
 <hr><!--------------------------------------------------------------------->
-
-<div class="modal fade" tabindex="-1" role="dialog" id="myModal">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <!-- Modal Header -->
-      <div class="modal-header">
-        <h5 class="modal-title">Modal title</h5>
-      </div>
-      <!-- Modal Body -->
-      <div class="modal-body">
-        <p>Name: Eliachar Feig
-          <br>Tel: 058-7272372
-          <br>Email1: eliacharfe@edu.hac.ac.il
-          <br>Email2: efeig15@gmail.com
-          <br>ID: 302278338
-        </p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
