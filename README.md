@@ -3,11 +3,16 @@
 A started template for HTML project
 
 <h1>Eliachar Feig</h1>
-<p>eliacharfe@edu.hac.ac.il</p>
+<p>eliacharfe@edu.hac.ac.il
+<br>302278338</p>
 
 <h1>Execution</h1>
 <p>
-The submission is a WebStorm project that can be run directly from the IDE.
+ This program is open a responsive html web page which includes a CV (kind of) devided
+  <br> to some parts using bootstrap design. There 3 different states of the page:
+  <br> xs, md, xl. There also a navbar that includes links, and other features, according 
+  <br>to the exercise demands.
+<br>The submission is a WebStorm project that can be run directly from the IDE.
 </p>
 <h1>Assumptions</h1>
 <p>
